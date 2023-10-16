@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+   padding: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.quizApp {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.quizApp h1 {
+    color: #242f8f;
+    padding: 10px 0;
+    border-bottom: 2px solid #63667a;
+    
+}
+
+.quizApp p {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #222;
+
+}
+
+
+.quizApp ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.quizApp ul li {
+    border: 2px solid #63667a;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:500;
+    width: 100%;
+    flex: 1;
+    cursor: pointer;
+    transition: ease 0.5s;
+    
+}
+.quizApp ul li:hover {
+    transform: scale(1.1);
+    
+}
+
+.quizApp button , .score button{
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 5px;
+    background-color:#242f8f;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.correct {
+    background-color: #3adf50;
+}
+.wrong {
+    background-color: #f14444;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.score { 
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+    padding: 40px;
+    margin: 50px auto;
+}
+.score p {
+    font-size: 22px;
+}
+
